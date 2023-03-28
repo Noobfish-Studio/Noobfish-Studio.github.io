@@ -1,39 +1,61 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://noobfish.com/'
 languageCode = 'zh-cn'
-theme = "coder"
+defaultContentLanguage = 'zh-cn'
+theme = 'coder'
 title = 'Noobfish Studio'
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = 'yourdiscussshortname'
 
 [markup.highlight]
-    style = "github-dark"
+    style = 'github-dark'
 
 [params]
-    author = "Morthine"
-    info = "Test Info"
-    description = "This is an easy description."
-    since = "2023"
-    avatarURL = "http://qianchen.org.cn/src/img/avatar.jpg"
+    author = 'Noobfish'
+    info = ['Full Stack DevOps', 'Magician']
+    since = '2023'
+    avatarURL = '/img/avatar.jpg'
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fa fa-github fa-2x"
+    name = 'Github'
+    icon = 'fa fa-github fa-2x'
     weight = 1
-    url = "https://github.com/Noobfish-Studio"
+    url = 'https://github.com/Noobfish-Studio'
 
-# Menu links
-[[menu.main]]
-    name = "HOME"
+# Chinese Ver
+[languages.zh-cn]
+languageName = '中文'
+
+[[languages.zh-cn.menu.main]]
+    name = '首页'
     weight = 1
-    url = ""
+    url = ''
 
-[[menu.main]]
-    name = "PRODUCT"
+[[languages.zh-cn.menu.main]]
+    name = '产品'
     weight = 2
-    url = ""
+    url = ''
 
-[[menu.main]]
-    name = "ABOUT"
+[[languages.zh-cn.menu.main]]
+    name = '关于'
     weight = 3
-    url = ""
+    url = ''
+
+# English Ver
+[languages.en]
+languageName = 'EN'
+
+[[languages.en.menu.main]]
+    name = 'HOME'
+    weight = 1
+    url = ''
+
+[[languages.en.menu.main]]
+    name = 'PRODUCT'
+    weight = 2
+    url = ''
+
+[[languages.en.menu.main]]
+    name = 'ABOUT'
+    weight = 3
+    url = ''
