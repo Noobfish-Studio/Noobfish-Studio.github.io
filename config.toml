@@ -1,0 +1,39 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+theme = "coder"
+title = 'Noobfish Studio'
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+    style = "github-dark"
+
+[params]
+    author = "Morthine"
+    info = "Test Info"
+    description = "This is an easy description."
+    since = "2023"
+    avatarURL = "http://qianchen.org.cn/src/img/avatar.jpg"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/Noobfish-Studio"
+
+# Menu links
+[[menu.main]]
+    name = "HOME"
+    weight = 1
+    url = ""
+
+[[menu.main]]
+    name = "PRODUCT"
+    weight = 2
+    url = ""
+
+[[menu.main]]
+    name = "ABOUT"
+    weight = 3
+    url = ""
