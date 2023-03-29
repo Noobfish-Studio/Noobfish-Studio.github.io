@@ -5,6 +5,7 @@ appear in after the "about" section.
 
 <!-- <img class="bg-img" src="/img/bg.jpg" /> -->
 <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+{{ if eq .Site.Language.Lang "zh-cn" }}
 <script>
     var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
@@ -12,5 +13,14 @@ appear in after the "about" section.
         typeSpeed: 100
     });
 </script>
+{{ else }}
+<script>
+    var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        startDelay: 1000,
+        typeSpeed: 50
+    });
+</script>
+{{ end }}
 <video class="bg-img" autoplay="true" loop muted="muted" poster="/img/bg.jpg"
     src="https://flightsimulator.azureedge.net/wp-content/uploads/2023/02/NZ-website-trailer-3440x1440p30.mp4"></video>

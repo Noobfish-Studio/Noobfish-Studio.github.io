@@ -38,7 +38,7 @@ languageName = '中文'
 title = 'NOOBFISH STUDIO - 又一次，改变世界'
 
 [languages.zh-cn.params]
-    info = '又一次，<br>改变世界。'
+    info = '又一次,<br>改变世界.'
     dateFormat = '2006年 1月 2日'
 
 [[languages.zh-cn.menu.main]]
