@@ -2,18 +2,18 @@ baseURL = 'http://noobfish.com/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
 theme = 'coder'
-title = 'Noobfish Studio'
-
-disqusShortname = 'yourdiscussshortname'
+title = 'Noobfish Studio - Build a New World'
 
 [markup.highlight]
-    style = 'github-dark'
+    style = 'github-light'
 
 [params]
-    author = 'Noobfish'
+    author = 'NOOBFISH'
     info = ['Full Stack DevOps', 'Magician']
     since = '2023'
-    avatarURL = '/img/avatar.jpg'
+    avatarURL = 'http://www.wetools.com/imgplaceholder/512x512'
+    colorScheme = 'light'
+    hideColorSchemeToggle = 'true'
 
 # Social links
 [[params.social]]
@@ -26,36 +26,42 @@ disqusShortname = 'yourdiscussshortname'
 [languages.zh-cn]
 languageName = '中文'
 
+[languages.zh-cn.params]
+    info = ['全栈工程师', '魔术师']
+
 [[languages.zh-cn.menu.main]]
-    name = '首页'
+    name = '新闻'
     weight = 1
-    url = ''
+    url = 'news/'
 
 [[languages.zh-cn.menu.main]]
     name = '产品'
     weight = 2
-    url = ''
+    url = 'prod/'
 
 [[languages.zh-cn.menu.main]]
     name = '关于'
     weight = 3
-    url = ''
+    url = 'about/'
 
 # English Ver
 [languages.en]
 languageName = 'EN'
 
-[[languages.en.menu.main]]
-    name = 'HOME'
-    weight = 1
-    url = ''
+[languages.en.params]
+    info = ['Full Stack DevOps', 'Magician']
 
 [[languages.en.menu.main]]
-    name = 'PRODUCT'
+    name = 'NEWS'
+    weight = 1
+    url = 'news/'
+
+[[languages.en.menu.main]]
+    name = 'PRODUCTS'
     weight = 2
-    url = ''
+    url = 'prod/'
 
 [[languages.en.menu.main]]
     name = 'ABOUT'
     weight = 3
-    url = ''
+    url = 'about/'
