@@ -7,6 +7,9 @@ other = "产品"
 [about]
 other = "关于"
 
+[news]
+other = "新闻"
+
 [categories]
 one = "分类"
 other = "分类"

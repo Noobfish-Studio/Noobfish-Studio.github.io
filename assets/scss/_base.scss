@@ -21,6 +21,10 @@ body {
     font-size: 1.6em;
     line-height: 1.6em;
   }
+
+  .bg-body {
+    background-image: url('/img/bg.jpg');
+  }
 }
 
 iframe[src*=disqus] {
@@ -31,7 +35,7 @@ a {
   font-weight: 500;
   color: $link-color;
   text-decoration: none;
-  transition: all 1s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 p {

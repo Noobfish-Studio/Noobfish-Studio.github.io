@@ -7,6 +7,9 @@ other = "PRODUCT"
 [about]
 other = "ABOUT"
 
+[news]
+other = "News"
+
 [categories]
 one = "category"
 other = "categories"
