@@ -2,7 +2,6 @@ baseURL = 'http://noobfish.com/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
 theme = 'coder'
-title = 'Noobfish Studio - Build a New World'
 
 [markup.highlight]
     style = 'github-light'
@@ -11,9 +10,10 @@ title = 'Noobfish Studio - Build a New World'
     author = 'NOOBFISH'
     info = ['Full Stack DevOps', 'Magician']
     since = '2023'
-    avatarURL = 'http://www.wetools.com/imgplaceholder/512x512'
+    avatarURL = '/img/avatar.png'
     colorScheme = 'light'
     hideColorSchemeToggle = 'true'
+    customSCSS = ['scss/custom.scss']
 
 # Social links
 [[params.social]]
@@ -25,9 +25,11 @@ title = 'Noobfish Studio - Build a New World'
 # Chinese Ver
 [languages.zh-cn]
 languageName = '中文'
+title = 'Noobfish Studio - 又一次，改变世界'
 
 [languages.zh-cn.params]
-    info = ['全栈工程师', '魔术师']
+    info = ['又一次，', '改变世界']
+    dateFormat = '2006年 1月 2日'
 
 [[languages.zh-cn.menu.main]]
     name = '新闻'
@@ -47,9 +49,11 @@ languageName = '中文'
 # English Ver
 [languages.en]
 languageName = 'EN'
+title = 'Noobfish Studio - This Changes Everything. Again.'
 
 [languages.en.params]
-    info = ['Full Stack DevOps', 'Magician']
+    info = ['This Changes Everything.', 'Again.']
+    dateFormat = 'January 2, 2006'
 
 [[languages.en.menu.main]]
     name = 'NEWS'

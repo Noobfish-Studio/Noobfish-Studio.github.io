@@ -1,6 +1,7 @@
 .navigation {
   height: 6rem;
   width: 100%;
+  backdrop-filter: blur(10px);
 
   a,
   span {
