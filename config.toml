@@ -1,7 +1,12 @@
 baseURL = 'http://noobfish.com/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
+disableKinds = ["taxonomy", "term"]
 theme = 'coder'
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
 
 [markup.highlight]
     style = 'github-light'
@@ -25,7 +30,7 @@ theme = 'coder'
 # Chinese Ver
 [languages.zh-cn]
 languageName = '中文'
-title = 'Noobfish Studio - 又一次，改变世界'
+title = 'NOOBFISH STUDIO - 又一次，改变世界'
 
 [languages.zh-cn.params]
     info = ['又一次，', '改变世界']
@@ -49,7 +54,7 @@ title = 'Noobfish Studio - 又一次，改变世界'
 # English Ver
 [languages.en]
 languageName = 'EN'
-title = 'Noobfish Studio - This Changes Everything. Again.'
+title = 'NOOBFISH STUDIO - This Changes Everything. Again.'
 
 [languages.en.params]
     info = ['This Changes Everything.', 'Again.']
