@@ -1,0 +1,9 @@
+<h1>{{ .Site.Params.author }}</h1>
+<div id="typed-strings">
+    {{ if reflect.IsSlice .Site.Params.info }}
+    <h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
+    {{ else }}
+    <h2>{{ .Site.Params.info | markdownify }} </h2>
+    {{ end }}
+</div>
+<span id="typed"></span>

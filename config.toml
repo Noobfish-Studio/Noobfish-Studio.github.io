@@ -1,14 +1,24 @@
 baseURL = 'http://noobfish.com/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
+disableKinds = ["taxonomy", "term"]
 theme = 'coder'
 
-[markup.highlight]
-    style = 'github-light'
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+    [markup.highlight]
+        style = 'github-light'
 
 [params]
     author = 'NOOBFISH'
-    info = ['Full Stack DevOps', 'Magician']
+    info = ['This Changes Everything.', 'Again.']
     since = '2023'
     avatarURL = '/img/avatar.png'
     colorScheme = 'light'
@@ -25,10 +35,10 @@ theme = 'coder'
 # Chinese Ver
 [languages.zh-cn]
 languageName = '中文'
-title = 'Noobfish Studio - 又一次，改变世界'
+title = 'NOOBFISH STUDIO - 又一次，改变世界'
 
 [languages.zh-cn.params]
-    info = ['又一次，', '改变世界']
+    info = '又一次,<br>改变世界.'
     dateFormat = '2006年 1月 2日'
 
 [[languages.zh-cn.menu.main]]
@@ -49,10 +59,10 @@ title = 'Noobfish Studio - 又一次，改变世界'
 # English Ver
 [languages.en]
 languageName = 'EN'
-title = 'Noobfish Studio - This Changes Everything. Again.'
+title = 'NOOBFISH STUDIO - This Changes Everything. Again.'
 
 [languages.en.params]
-    info = ['This Changes Everything.', 'Again.']
+    info = 'This Changes Everything.<br>Again.'
     dateFormat = 'January 2, 2006'
 
 [[languages.en.menu.main]]

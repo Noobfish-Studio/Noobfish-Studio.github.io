@@ -10,6 +10,9 @@ other = "ABOUT"
 [news]
 other = "News"
 
+[typespeed]
+other = "50"
+
 [categories]
 one = "category"
 other = "categories"
